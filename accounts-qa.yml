@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to aSebastin accounts related QA APIs "
+  contactDetails:
+    name: "Smitha Ray - QA Lead"
+    email: "smitha_qa_lead@asebastin.com"
+  onCallSupport:
+    - (888) 265-3765
+    - (888) 734-8371
