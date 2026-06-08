@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to aSebastin cards related prod APIs "
+  message: "Welcome to aSebastin cards related webhook APIs "
   contactDetails:
     name: "Sandra Harald - Production Server"
     email: "sandra@asebastin.com"
