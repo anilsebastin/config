@@ -2,7 +2,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to aSebastin accounts prod instance"
+  message: "Welcome to aSebastin accounts webhook api"
   contactDetails:
     name: "Reine Daniel Production- Product Owner"
     email: "{cipher}5fa3c7f9e1e91aed828b94c6314be2fcfeb67d4a95a081c3a5ec44e25b8f9c5af2fa3bf481997125a6547de8871584ba"
