@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to aSebastin accounts related local webhook APIs "
+  message: "Welcome to aSebastin accounts related local webhook testing APIs "
   contactDetails:
     name: "John Doe Local - Developer"
     email: "john_local@asebastin.com"
