@@ -9,26 +9,3 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: "http://localhost:8070/eureka/"
-
-spring:
-  cloud:
-    gateway:
-      routes:
-        - id: accounts-service
-          uri: lb://ACCOUNTS
-          predicates:
-            - Path=/eazybank/accounts/**
-          filters:
-            - RewritePath=/eazybank/accounts/(?<segment>.*), /api/${segment}
-        - id: loans-service
-          uri: lb://LOANS
-          predicates:
-            - Path=/eazybank/loans/**
-          filters:
-            - RewritePath=/eazybank/loans/(?<segment>.*), /api/${segment}
-        - id: cards-service
-          uri: lb://CARDS
-          predicates:
-            - Path=/eazybank/cards/**
-          filters:
-            - RewritePath=/eazybank/cards/(?<segment>.*), /api/${segment}
